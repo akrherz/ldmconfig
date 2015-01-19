@@ -1,0 +1,4 @@
+PATH=/home/ldm/bin:/usr/bin:/bin:/sbin:/usr/sbin:/usr/local/bin
+
+@reboot cd ridge; sh runRidgeServer.sh
+@reboot cd pyWWA/util; sleep 60 && python ridge_runner.py
