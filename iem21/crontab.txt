@@ -2,7 +2,7 @@
 
 ###
 # Scour away old data we don't need to keep around
-6 6 * * * ~/bin/scour
+6 6 * * * ldmadmin scour
 
 ###
 # archive Iowa level3 data into a web folder
