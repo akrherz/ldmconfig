@@ -36,7 +36,7 @@
   </pqsurf>
   <queue>
     <path>/home/ldm/var/queues/ldm.pq</path>
-    <size>8000M</size>
+    <size>20000M</size>
     <slots>default</slots>
   </queue>
   <scour>
@@ -49,7 +49,7 @@
     <max-latency>3600</max-latency>
     <port>388</port>
     <time-offset>3600</time-offset>
-    <enable-anti-DOS>TRUE</enable-anti-DOS>
+    <enable-anti-DOS>FALSE</enable-anti-DOS>
   </server>
   <surf-queue>
     <path>/home/ldm/var/queues/pqsurf.pq</path>
