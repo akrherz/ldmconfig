@@ -1,0 +1,17 @@
+#  IEM21's LDM Crontab
+
+###
+# Scour away old data we don't need to keep around
+6 6 * * * ~/bin/ldmadmin scour
+
+###
+# archive Iowa level3 data into a web folder
+10 10 * * * sh pyWWA/util/save_iowa_level3.sh
+
+###
+# Compress MADIS data
+45 7 * * * sh pyWWA/util/compress_madis.sh
+
+###
+# Save raw text data
+4 4 * * * sh pyWWA/util/archive_noaaport.sh
