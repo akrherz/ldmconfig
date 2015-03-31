@@ -1,4 +1,6 @@
-#  IEM21's LDM Crontab
+#  IEM12's LDM Crontab
+
+@reboot source /home/ldm/.bashrc; ~/bin/ldmadmin stop; ~/bin/ldmadmin start
 
 ###
 # Scour away old data we don't need to keep around
@@ -15,3 +17,16 @@
 ###
 # Save raw text data
 4 4 * * * sh pyWWA/util/archive_noaaport.sh
+
+###
+# RUC Temps
+58 * * * * cd radcomp; python n0r_ructemps.py
+
+###
+# Run radar composites
+4,9,14,19,24,29,34,39,44,49,54,59 * * * * cd radcomp; ./RUNME.csh
+22 * * * * cd radcomp; python rerunhour.py
+
+###
+# Remove old RUC data
+1 1 * * *  tmpwatch 24 /home/ldm/radcomp/data/
