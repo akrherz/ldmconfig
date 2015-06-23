@@ -36,7 +36,7 @@
   </pqsurf>
   <queue>
     <path>/home/ldm/var/queues/ldm.pq</path>
-    <size>2000M</size>
+    <size>400M</size>
     <slots>default</slots>
   </queue>
   <scour>
