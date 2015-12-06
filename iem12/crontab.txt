@@ -8,7 +8,7 @@
 
 ###
 # archive Iowa level3 data into a web folder
-10 10 * * * sh pyWWA/util/save_iowa_level3.sh
+10 10 * * * python pyWWA/util/save_iowa_level3.py
 
 ###
 # Compress MADIS data
