@@ -7,3 +7,5 @@
 # Clean up after me
 10 10 * * * tmpwatch 1440 /home/ldm/var/data/offline/text
 
+# Upload noaaport text tgz files
+12 3 * * * cd scripts; sh upload.sh
