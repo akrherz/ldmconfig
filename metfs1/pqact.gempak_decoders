@@ -194,21 +194,6 @@ NGRID	^[YZ].N... KWBC
 		-e GEMTBL=/home/ldm/nawips/gempak/tables
 		/data/gempak/model/gfs/YYYYMMDDHH_gfs215.gem
 #
-NGRID	^[LM].G... KWBC
-	PIPE	dcgrib2 -m 20000 -d /home/ldm/data/gempak/logs/dcgrib2_GFS2alaska.log
-		-e GEMTBL=/home/ldm/nawips/gempak/tables
-		/data/gempak/model/gfs/YYYYMMDDHH_gfs160.gem
-#
-NGRID	^[LM].O... KWBC
-	PIPE	dcgrib2 -m 20000 -d /home/ldm/data/gempak/logs/dcgrib2_GFS2pacific.log
-		-e GEMTBL=/home/ldm/nawips/gempak/tables
-		/data/gempak/model/gfs/YYYYMMDDHH_gfs254.gem
-#
-NGRID	^[LM].T... KWBC
-	PIPE	dcgrib2 -m 20000 -d /home/ldm/data/gempak/logs/dcgrib2_GFS2puertorico.log
-		-e GEMTBL=/home/ldm/nawips/gempak/tables
-		/data/gempak/model/gfs/YYYYMMDDHH_gfs161.gem
-#
 # Global GFS (Spectral) Thinned grids
 # Grid octets I-P will be stitched together as a single global grid
 #
