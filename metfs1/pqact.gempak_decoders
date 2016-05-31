@@ -122,28 +122,17 @@ HDS|CONDUIT	(/mNAM|/mNMM|MT.nam).*#2([^1]|1[^1256])
 # Grid #211 CONUS   80km: ^[YZ].Q.*/mRUC
 # Grid #236 CONUS   40km: ^[YZ].W.*/mRUC
 # Select any/all grids desired from [QW]
-#
-HDS|NGRID	RUC2/#130
+
+# grid #130 (13km)
+NGRID	^[LM].D... KWB. .....*RUC2/#130
 	PIPE	dcgrib2 -d /home/ldm/data/gempak/logs/dcgrib2_RUC130.log
 		-e GEMTBL=/home/ldm/nawips/gempak/tables 
 		/data/gempak/model/ruc/YYYYMMDDHH_ruc130.gem
-HDS|NGRID|CONDUIT	(RUC2/#236|rap.*awp236)
+# grid	#236 (40km) 	rap.tXXz.awp236pgrbfHH
+CONDUIT	prod/rap.*awp236.*
 	PIPE	dcgrib2 -d /home/ldm/data/gempak/logs/dcgrib2_RUC236.log
 		-e GEMTBL=/home/ldm/nawips/gempak/tables 
 		/data/gempak/model/ruc/YYYYMMDDHH_ruc236.gem
-
-#HDS	grib/ncep/RUC/#211
-#	PIPE	dcgrib2 -d /home/ldm/data/gempak/logs/dcgrib2_RUC211.log
-#		-e GEMTBL=/home/ldm/nawips/gempak/tables 
-#		/data/gempak/model/ruc/YYYYMMDDHH_ruc211.gem
-#
-#
-# CONDUIT RUC grids (currently this grid is a duplicate of grib2)
-# Grid #252 (20km) grib1:	prod/ruc2a.*#252
-CONDUIT	prod/rap.*awp252
-	PIPE	dcgrib2 -m 15000 -d /home/ldm/data/gempak/logs/dcgrib2_RUC.log
-		-e GEMTBL=/home/ldm/nawips/gempak/tables
-#
 #
 # NGM model output 
 # -----------------------
