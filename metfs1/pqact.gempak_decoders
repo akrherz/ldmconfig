@@ -89,7 +89,7 @@ HDS|CONDUIT	(/mNAM|/mNMM|MT.nam|nccf/com/nam).*#215
 # NAM #218 12km grid CONUS
 NGRID	^[LM].B... KWBE
 	PIPE	dcgrib2 -d /home/ldm/data/gempak/logs/dcgrib2_NAM218.log
-		-e GEMTBL=/home/ldm/nawips/gempak/tables
+		-e GEMTBL=/home/ldm/nawips/gempak/tables -m 10000
 		/data/gempak/model/nam/YYYYMMDDHH_nam218.gem
 #
 # NAM #104 90km grid CONUS
