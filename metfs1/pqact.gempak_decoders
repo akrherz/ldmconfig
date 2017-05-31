@@ -107,7 +107,7 @@ HDS|CONDUIT	(/mNAM|/mNMM|MT.nam|nccf/com/nam).*#216
 # NAM #242 11.25km grid Alaska
 NGRID	^[LM].S... KWBE
 	PIPE	dcgrib2 -d /home/ldm/data/gempak/logs/dcgrib2_NAM242.log
-		-e GEMTBL=/home/ldm/nawips/gempak/tables
+		-e GEMTBL=/home/ldm/nawips/gempak/tables -m 10000
 		/data/gempak/model/nam/YYYYMMDDHH_nam242.gem
 #
 # NAM grid not mentioned above
@@ -126,12 +126,12 @@ HDS|CONDUIT	(/mNAM|/mNMM|MT.nam).*#2([^1]|1[^1256])
 # grid #130 (13km)
 NGRID	^[LM].D... KWB. .....*RUC2/#130
 	PIPE	dcgrib2 -d /home/ldm/data/gempak/logs/dcgrib2_RUC130.log
-		-e GEMTBL=/home/ldm/nawips/gempak/tables 
+		-e GEMTBL=/home/ldm/nawips/gempak/tables -m 10000
 		/data/gempak/model/ruc/YYYYMMDDHH_ruc130.gem
 # grid	#236 (40km) 	rap.tXXz.awp236pgrbfHH
 CONDUIT	prod/rap.*awp236.*
 	PIPE	dcgrib2 -d /home/ldm/data/gempak/logs/dcgrib2_RUC236.log
-		-e GEMTBL=/home/ldm/nawips/gempak/tables 
+		-e GEMTBL=/home/ldm/nawips/gempak/tables -m 10000
 		/data/gempak/model/ruc/YYYYMMDDHH_ruc236.gem
 #
 # NGM model output 
