@@ -387,8 +387,8 @@ NGRID	^[LM].U... KWNO
 	-e GEMTBL=/home/ldm/nawips/gempak/tables
 	/data/gempak/model/mos/YYYYMMDDHH_lamp.gem
 #
-# GFS MOS
-NGRID	^[LM].U... KWBQ
+# 2.5km GFSMOS CONUS, 2145 x 1597 (current)
+NGRID	^Y[A-JRSU-Y]U... KWBQ
 	PIPE	dcgrib2 -v 1 -d /home/ldm/data/gempak/logs/gfsmos.log
 	-e GEMTBL=/home/ldm/nawips/gempak/tables
 	/data/gempak/model/mos/YYYYMMDDHH_gfsmos.gem
