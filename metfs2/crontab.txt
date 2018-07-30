@@ -1,4 +1,5 @@
-@reboot source ~/.bash_profile; ~/bin/ldmadmin stop; ~/bin/ldmadmin start
+# on shared memory, so need to create
+@reboot source ~/.bash_profile; ~/bin/ldmadmin stop; ~/bin/ldmadmin mkqueue; ~/bin/ldmadmin start
 ###
 # Scour
 0 10 * * * ~/bin/ldmadmin scour 

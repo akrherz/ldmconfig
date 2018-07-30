@@ -35,8 +35,8 @@
     <datadir-path>/home/ldm/var/data</datadir-path>
   </pqsurf>
   <queue>
-    <path>/mnt/ldmqueue/var/queues/ldm.pq</path>
-    <size>4000M</size>
+    <path>/dev/shm/ldm.pq</path>
+    <size>3000M</size>
     <slots>default</slots>
   </queue>
   <scour>
