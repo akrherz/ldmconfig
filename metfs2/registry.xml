@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <registry>
   <delete-info-files>0</delete-info-files>
-  <hostname>metfs1.agron.iastate.edu</hostname>
+  <hostname>metfs2.agron.iastate.edu</hostname>
   <insertion-check-interval>300</insertion-check-interval>
   <reconciliation-mode>increase queue</reconciliation-mode>
   <check-time>
@@ -35,8 +35,8 @@
     <datadir-path>/home/ldm/var/data</datadir-path>
   </pqsurf>
   <queue>
-    <path>/dev/shm/ldm.pq</path>
-    <size>30000M</size>
+    <path>/mnt/ldmqueue/var/queues/ldm.pq</path>
+    <size>4000M</size>
     <slots>default</slots>
   </queue>
   <scour>
