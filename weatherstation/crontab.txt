@@ -1,0 +1,3 @@
+@reboot bin/ldmadmin stop; bin/ldmadmin start
+15 8 * * * cd /home/ldm/met/bin; sleep 35 ; ./vproweather -s /dev/ttyUSB0
+* * * * * cd /home/ldm/met/bin; csh data_logger_vp.csh >& /dev/null
