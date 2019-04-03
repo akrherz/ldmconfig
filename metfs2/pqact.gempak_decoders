@@ -187,11 +187,11 @@ NGRID	^[LM].T... KWBC
 		-e GEMTBL=/home/ldm/nawips/gempak/tables
 		/data/gempak/model/gfs/YYYYMMDDHH_gfs161.gem
 #
-# Global GFS (Spectral) Thinned grids
-# Grid octets I-P will be stitched together as a single global grid
-#
-HDS	^H.[I-P]... KWBC ([0-3][0-9])([0-2][0-9])
-	PIPE	dcgrib2 -d /home/ldm/data/gempak/logs/dcgrib2_GFSthin.log
+# GFS Global 1.0 Degree (noaaport)
+# 190403: previously this was a thinner grid yet, but that grid was removed
+#         from noaaport with the FV3 upgrade (I think)
+NGRID	^[YZ].P... KWBC ([0-3][0-9])([0-2][0-9][0-6][0-9])
+	PIPE	dcgrib2 -d /data/gempak/logs/dcgrib2_GFSthin.log
 		-e GEMTBL=/home/ldm/nawips/gempak/tables
 		/data/gempak/model/gfs/YYYYMMDDHH_thin.gem
 #
