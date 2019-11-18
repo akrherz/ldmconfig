@@ -55,4 +55,5 @@
     <path>/home/meteor_ldm/var/queues/pqsurf.pq</path>
     <size>2M</size>
   </surf-queue>
+  <oess-pathname>/home/meteor_ldm/etc/OESS-account.yaml</oess-pathname>
 </registry>
