@@ -16,34 +16,34 @@
   </check-time>
   <log>
     <count>7</count>
-    <file>/home/ldm/var/logs/ldmd.log</file>
+    <file>/home/meteor_ldm/var/logs/ldmd.log</file>
     <rotate>1</rotate>
   </log>
   <metrics>
     <count>4</count>
-    <file>/home/ldm/var/logs/metrics.txt</file>
-    <files>/home/ldm/var/logs/metrics.txt*</files>
+    <file>/home/meteor_ldm/var/logs/metrics.txt</file>
+    <files>/home/meteor_ldm/var/logs/metrics.txt*</files>
     <netstat-command>/bin/netstat -A inet -t -n</netstat-command>
     <top-command>/usr/bin/top -b -n 1</top-command>
   </metrics>
   <pqact>
-    <config-path>/home/ldm/etc/pqact.conf</config-path>
-    <datadir-path>/home/ldm/</datadir-path>
+    <config-path>/home/meteor_ldm/etc/pqact.conf</config-path>
+    <datadir-path>/home/meteor_ldm/</datadir-path>
   </pqact>
   <pqsurf>
-    <config-path>/home/ldm/etc/pqsurf.conf</config-path>
-    <datadir-path>/home/ldm/var/data</datadir-path>
+    <config-path>/home/meteor_ldm/etc/pqsurf.conf</config-path>
+    <datadir-path>/home/meteor_ldm/var/data</datadir-path>
   </pqsurf>
   <queue>
-    <path>/home/ldm/var/queues/ldm.pq</path>
+    <path>/home/meteor_ldm/var/queues/ldm.pq</path>
     <size>1800M</size>
     <slots>default</slots>
   </queue>
   <scour>
-    <config-path>/home/ldm/etc/scour.conf</config-path>
+    <config-path>/home/meteor_ldm/etc/scour.conf</config-path>
   </scour>
   <server>
-    <config-path>/home/ldm/etc/ldmd.conf</config-path>
+    <config-path>/home/meteor_ldm/etc/ldmd.conf</config-path>
     <ip-addr>0.0.0.0</ip-addr>
     <max-clients>256</max-clients>
     <max-latency>3600</max-latency>
@@ -52,7 +52,7 @@
     <enable-anti-DOS>TRUE</enable-anti-DOS>
   </server>
   <surf-queue>
-    <path>/home/ldm/var/queues/pqsurf.pq</path>
+    <path>/home/meteor_ldm/var/queues/pqsurf.pq</path>
     <size>2M</size>
   </surf-queue>
 </registry>
