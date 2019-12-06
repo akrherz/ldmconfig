@@ -55,4 +55,5 @@
     <path>/home/ldm/var/queues/pqsurf.pq</path>
     <size>2000000</size>
   </surf-queue>
+  <oess-pathname>/home/ldm/etc/OESS-account.json</oess-pathname>
 </registry>
