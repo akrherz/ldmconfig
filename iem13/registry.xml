@@ -35,7 +35,7 @@
     <datadir-path>/home/meteor_ldm/var/data</datadir-path>
   </pqsurf>
   <queue>
-    <path>/mesonet/ldmqueue/ldm.pq</path>
+    <path>/mnt/ldmqueue/ldm.pq</path>
     <size>9000M</size>
     <slots>default</slots>
   </queue>
