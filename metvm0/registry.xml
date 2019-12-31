@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <registry>
   <delete-info-files>0</delete-info-files>
-  <hostname>metvm3.agron.iastate.edu</hostname>
+  <hostname>metvm0.agron.iastate.edu</hostname>
   <insertion-check-interval>300</insertion-check-interval>
   <reconciliation-mode>increase queue</reconciliation-mode>
   <check-time>
@@ -36,7 +36,7 @@
   </pqsurf>
   <queue>
     <path>/home/meteor_ldm/var/queues/ldm.pq</path>
-    <size>30M</size>
+    <size>3000M</size>
     <slots>default</slots>
   </queue>
   <scour>
