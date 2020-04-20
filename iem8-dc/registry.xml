@@ -28,11 +28,11 @@
   </metrics>
   <pqact>
     <config-path>/home/meteor_ldm/etc/pqact.conf</config-path>
-    <datadir-path>/home/ldm</datadir-path>
+    <datadir-path>/home/meteor_ldm</datadir-path>
   </pqact>
   <pqsurf>
     <config-path>/home/meteor_ldm/etc/pqsurf.conf</config-path>
-    <datadir-path>/home/ldm</datadir-path>
+    <datadir-path>/home/meteor_ldm</datadir-path>
   </pqsurf>
   <queue>
     <path>/home/meteor_ldm/var/queues/ldm.pq</path>
