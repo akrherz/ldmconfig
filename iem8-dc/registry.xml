@@ -36,7 +36,7 @@
   </pqsurf>
   <queue>
     <path>/home/meteor_ldm/var/queues/ldm.pq</path>
-    <size>2000M</size>
+    <size>4000M</size>
     <slots>default</slots>
   </queue>
   <scour>
