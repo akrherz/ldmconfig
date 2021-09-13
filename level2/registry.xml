@@ -41,6 +41,7 @@
   </queue>
   <scour>
     <config-path>/home/meteor_ldm/etc/scour.conf</config-path>
+	<exclude-path>/home/meteor_ldm/etc/scour_excludes.conf</exclude-path>
   </scour>
   <server>
     <config-path>/home/meteor_ldm/etc/ldmd.conf</config-path>
@@ -56,4 +57,5 @@
     <size>2M</size>
   </surf-queue>
   <oess-pathname>/home/meteor_ldm/etc/OESS-account.json</oess-pathname>
+  <fmtp-retx-timeout>300</fmtp-retx-timeout>
 </registry>
