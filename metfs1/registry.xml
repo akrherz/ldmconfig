@@ -41,6 +41,7 @@
   </queue>
   <scour>
     <config-path>/home/ldm/etc/scour.conf</config-path>
+	<exclude-path>/home/ldm/etc/scour_excludes.conf</exclude-path>
   </scour>
   <server>
     <config-path>/home/ldm/etc/ldmd.conf</config-path>
