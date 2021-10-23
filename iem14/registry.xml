@@ -10,7 +10,7 @@
     <warn-if-disabled>1</warn-if-disabled>
     <ntpdate>
       <command>/usr/sbin/ntpdate</command>
-      <servers>ntp.ucsd.edu ntp1.cs.wisc.edu ntppub.tamu.edu otc1.psu.edu timeserver.unidata.ucar.edu</servers>
+      <servers>pool.ntp.org</servers>
       <timeout>5</timeout>
     </ntpdate>
   </check-time>
@@ -36,8 +36,8 @@
   </pqsurf>
   <queue>
     <path>/home/meteor_ldm/var/queues/ldm.pq</path>
-    <size>12000M</size>
-    <slots>120000</slots>
+    <size>1000M</size>
+    <slots>10000</slots>
   </queue>
   <scour>
     <config-path>/home/meteor_ldm/etc/scour.conf</config-path>
