@@ -36,7 +36,7 @@
   </pqsurf>
   <queue>
     <path>/dev/shm/ldm.pq</path>
-    <size>1000M</size>
+    <size>3000M</size>
     <slots>10000</slots>
   </queue>
   <scour>
