@@ -10,7 +10,7 @@
     <warn-if-disabled>1</warn-if-disabled>
     <ntpdate>
       <command>/usr/sbin/ntpdate</command>
-      <servers>ntp.ucsd.edu ntp1.cs.wisc.edu ntppub.tamu.edu otc1.psu.edu timeserver.unidata.ucar.edu</servers>
+      <servers>pool.ntp.org</servers>
       <timeout>5</timeout>
     </ntpdate>
   </check-time>
@@ -37,11 +37,11 @@
   <queue>
     <path>/mnt/ldmqueue/ldm.pq</path>
     <size>16000M</size>
-    <slots>default</slots>
+    <slots>300000</slots>
   </queue>
   <scour>
     <config-path>/home/meteor_ldm/etc/scour.conf</config-path>
-	<exclude-path>/home/meteor_ldm/etc/scour_excludes.conf</exclude-path>
+    <exclude-path>/home/meteor_ldm/etc/scour_excludes.conf</exclude-path>
   </scour>
   <server>
     <config-path>/home/meteor_ldm/etc/ldmd.conf</config-path>
@@ -57,4 +57,5 @@
     <size>2M</size>
   </surf-queue>
   <oess-pathname>/home/meteor_ldm/etc/OESS-account.yaml</oess-pathname>
+  <fmtp-retx-timeout>300</fmtp-retx-timeout>
 </registry>
