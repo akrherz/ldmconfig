@@ -41,7 +41,7 @@
   </queue>
   <scour>
     <config-path>/home/meteor_ldm/etc/scour.conf</config-path>
-	<exclude-path>/home/meteor_ldm/etc/scour_excludes.conf</exclude-path>
+    <exclude-path>/home/meteor_ldm/etc/scour_excludes.conf</exclude-path>
   </scour>
   <server>
     <config-path>/home/meteor_ldm/etc/ldmd.conf</config-path>
