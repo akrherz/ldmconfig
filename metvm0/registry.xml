@@ -57,4 +57,5 @@
     <size>2M</size>
   </surf-queue>
   <oess-pathname>/home/ldm/etc/OESS-account.json</oess-pathname>
+  <fmtp-retx-timeout>300</fmtp-retx-timeout>
 </registry>
