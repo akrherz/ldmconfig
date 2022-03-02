@@ -47,9 +47,9 @@
     <config-path>/home/ldm/etc/ldmd.conf</config-path>
     <ip-addr>0.0.0.0</ip-addr>
     <max-clients>256</max-clients>
-    <max-latency>7200</max-latency>
+    <max-latency>3600</max-latency>
     <port>388</port>
-    <time-offset>7200</time-offset>
+    <time-offset>3600</time-offset>
     <enable-anti-DOS>TRUE</enable-anti-DOS>
   </server>
   <surf-queue>
