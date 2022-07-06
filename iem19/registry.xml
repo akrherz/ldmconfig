@@ -36,8 +36,8 @@
   </pqsurf>
   <queue>
     <path>/home/meteor_ldm/var/queues/ldm.pq</path>
-    <size>4000M</size>
-    <slots>150000</slots>
+    <size>800M</size>
+    <slots>400000</slots>
   </queue>
   <scour>
     <config-path>/home/meteor_ldm/etc/scour.conf</config-path>
