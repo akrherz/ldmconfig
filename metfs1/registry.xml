@@ -37,7 +37,7 @@
   <queue>
     <path>/dev/shm/ldm.pq</path>
     <size>600M</size>
-    <slots>default</slots>
+    <slots>20000</slots>
   </queue>
   <scour>
     <config-path>/home/ldm/etc/scour.conf</config-path>
