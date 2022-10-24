@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <registry>
   <delete-info-files>0</delete-info-files>
-  <hostname>iem14.local</hostname>
+  <hostname>iem27-dc.agron.iastate.edu</hostname>
   <insertion-check-interval>300</insertion-check-interval>
   <reconciliation-mode>increase queue</reconciliation-mode>
   <check-time>
