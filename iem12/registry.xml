@@ -37,7 +37,7 @@
   <queue>
     <path>/dev/shm/ldm.pq</path>
     <size>3000M</size>
-    <slots>10000</slots>
+    <slots>20000</slots>
   </queue>
   <scour>
     <config-path>/home/meteor_ldm/etc/scour.conf</config-path>
