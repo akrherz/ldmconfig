@@ -36,8 +36,8 @@
   </pqsurf>
   <queue>
     <path>/home/ldm/var/queues/ldm.pq</path>
-    <size>100M</size>
-    <slots>default</slots>
+    <size>40M</size>
+    <slots>200000</slots>
   </queue>
   <scour>
     <config-path>/home/ldm/etc/scour.conf</config-path>
