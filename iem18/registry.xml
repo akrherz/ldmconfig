@@ -35,9 +35,9 @@
     <datadir-path>/home/meteor_ldm/var/data</datadir-path>
   </pqsurf>
   <queue>
-    <path>/dev/shm/ldm.pq</path>
-    <size>16000M</size>
-    <slots>300000</slots>
+    <path>/mnt/ldmqueue/ldm.pq</path>
+    <size>32000M</size>
+    <slots>400000</slots>
   </queue>
   <scour>
     <config-path>/home/meteor_ldm/etc/scour.conf</config-path>
