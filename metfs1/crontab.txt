@@ -1,2 +1,0 @@
-# queue is on /dev/shm, so we need to create it each time
-@reboot source ~/.bash_profile; ~/bin/ldmadmin stop; ~/bin/ldmadmin mkqueue; ~/bin/ldmadmin start
