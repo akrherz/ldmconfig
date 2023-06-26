@@ -36,7 +36,7 @@
   </pqsurf>
   <queue>
     <path>/mnt/ldmqueue/ldm.pq</path>
-    <size>14000M</size>
+    <size>9000M</size>
     <slots>100000</slots>
   </queue>
   <scour>
