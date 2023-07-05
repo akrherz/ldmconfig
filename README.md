@@ -9,7 +9,7 @@ Sources | Aggregators + Sinks
 --- | ---
 iem19 | iem12 -> webfarm
 iem8-dc | iemvm4
-iem11-dc | thumper-ah
+iem11-dc | iemvm6
 iem27-dc |idd-dc -> webfarm-dc
 iem9-dc |
 weaterstation |
