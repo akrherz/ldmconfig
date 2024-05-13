@@ -7,10 +7,9 @@ IEM's `EXP` flow needs to be careful to not cross-the-streams...
 
 Sources | Aggregators + Sinks
 --- | ---
-iem19 | iem12 -> webfarm
+iemvm5 | iem12 -> webfarm
 iem8-dc | iemvm4
 iem11-dc | iemvm6
 iem27-dc |idd-dc -> webfarm-dc
 iem9-dc | metvm6-dc -> rtwriter
 weaterstation |
-iemvm5 |
