@@ -11,5 +11,5 @@ iemvm5 | iem12 -> webfarm
 iem8-dc | iemvm4
 iem11-dc | iemvm6
 iem27-dc |idd-dc -> webfarm-dc
-iem9-dc | metvm6-dc -> rtwriter
+iem9-dc | metvm33-dc -> rtwriter
 weaterstation |
