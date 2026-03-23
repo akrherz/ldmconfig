@@ -1,0 +1,15 @@
+# EditorConfig is a file format and collection of text editor plugins
+# https://editorconfig.org
+root = true
+
+[*.{py,js,ts,md,json}]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# LDM configuration files require tabs (do not replace with spaces)
+[*.conf]
+indent_style = tab
+indent_size = tab
+tab_width = 4
