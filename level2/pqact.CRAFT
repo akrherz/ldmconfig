@@ -5,6 +5,8 @@ NEXRD2	^L2-([^/]*)/(....)/([0-9][0-9][0-9][0-9][0-1][0-9][0-3][0-9])([0-2][0-9][
 NEXRD2	^L2-([^/]*)/(....)/([0-9][0-9][0-9][0-9][0-1][0-9][0-3][0-9])([0-2][0-9][0-5][0-9])[0-5][0-9]/[0-9]+/[0-9]+/M/
 	FILE	-close	/mnt/level2/raw/\2/\2_\3_\4_MDM.arv2
 # L2-BZIP2/KMUX/20120919163045/846/29/I/V06/0
-NEXRD2	^L2-([^/]*)/(....)/[^/]*/[^/]*/(1|25|50|75)/
+# Masses complaining that my dir.list does not update frequently enough
+# so we will do more work here :/
+NEXRD2	^L2-([^/]*)/(....)/[^/]*/[^/]*/(1|20|40|60|80|100|125|150|200)/
 	EXEC	pyWWA/util/gr.csh \2
 
